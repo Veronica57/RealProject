@@ -1,3 +1,6 @@
+import add
+import mul
+
 print("Enter two integers")
 a = int(input())
 b = int(input())
@@ -7,6 +10,6 @@ print("1.Addition")
 print("2.Multiplication")
 c = int(input())
 if (c == 1):
-    print()
+    print(add.add(a, b))
 elif (c == 2):
-    print()
+    print(mul.mul(a, b))
